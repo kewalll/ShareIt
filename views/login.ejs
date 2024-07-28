@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login_signup_otp.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="page">
+        <div id="header">
+            <img src="\images\logo.jpeg" alt="">
+            <div id="buttons">
+            <form action="/signup" method="get">
+                <button type="submit">SignUp</button>
+            </form>
+            </div>
+        </div>
+        <div id="main">
+            <div id="box">
+                <form action="/login" method="post">
+                    <h1>Login</h1>
+                    <div id="email">
+                    <label for="">E-mail</label>
+                    <input type="text" name="username">
+                    </div>
+                    <div id="pass">
+                    <label for="">Password</label>
+                    <input type="password" name="password">
+                    </div>
+                    <button type="submit">LogIn</button>
+                </form>
+            </div>
+        </div>
+        <%- include('partials/footer') %>

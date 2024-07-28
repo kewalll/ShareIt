@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "General Sans Regular";
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#page{
+    color: whitesmoke;
+}
+
+#header{
+    height: 9.5vh;
+    border-bottom: 1px solid grey;
+    position: static;
+    align-items: center;
+    padding: 0 4.5vw;
+    justify-content: space-between;
+    display: flex;
+}
+
+#header img{
+    height: 9vh;
+    border-radius: 100px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+#buttons button{
+    cursor: pointer;
+    border: 0;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 100px;
+    background-color: rgba(127, 172, 255, 0.701);
+    color: black;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+#buttons button:hover{
+    background-color: rgba(185, 208, 250, 0.701);
+    transition: ease-in-out .3s ;
+}
+
+#main{
+    height: 83vh;
+    padding-top: 2vh;
+
+}
+
+#main .pehlawala{
+    padding-top: 2vh;;
+    padding-left: 2vw;
+    font-size: 15vh;
+    color: rgb(132, 170, 204);
+}
+
+#main .doosrawala{
+    padding-left: 10vw;
+    font-size: 10vh;
+    color: rgb(132, 170, 204);
+    padding-bottom: 2vh;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main p{
+    margin: 3vh 0;
+    padding: 3vh 3vw;
+    border: 1px solid grey;
+    width: 50vw;
+}
+
+#footer{
+    border-top: 1px solid grey;
+    height: 7vh;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer p a{
+    color: rgba(185, 208, 250, 0.701);
+    text-decoration: none;
+}

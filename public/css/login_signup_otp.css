@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "General Sans Regular";
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#page {
+    color: whitesmoke;
+}
+
+#header {
+    height: 9.5vh;
+    border-bottom: 1px solid grey;
+    position: static;
+    align-items: center;
+    padding: 0 4.5vw;
+    justify-content: space-between;
+    display: flex;
+}
+
+#header img {
+    height: 9vh;
+    border-radius: 100px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+#buttons button {
+    cursor: pointer;
+    border: 0;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 100px;
+    background-color: rgba(127, 172, 255, 0.701);
+    color: black;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+#buttons button:hover {
+    background-color: rgba(185, 208, 250, 0.701);
+    transition: ease-in-out .3s;
+}
+
+#main {
+    height: 83vh;
+    padding-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box form {
+    height: auto;
+    width: 25vw;
+    padding: 2vh 2vw;
+    border: 2px solid grey;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+}
+
+#box label {
+    font-size: larger;
+}
+
+form h1 {
+    margin-top: 2vh;
+    color: rgba(185, 208, 250, 0.701);
+}
+
+#box form input {
+    width: 90%;
+    padding: 0.5em;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: aliceblue;
+}
+
+#box form input:focus {
+    outline: none;
+    border-color: rgba(185, 208, 250, 0.701);
+}
+
+#box form button {
+    width: 50%;
+    padding: 0.5em;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgba(127, 172, 255, 0.701);
+    color: black;
+    font-weight: bolder;
+    font-size: 1em;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+
+#box form button:hover {
+    background-color: rgba(185, 208, 250, 0.701);
+    transition: ease-in-out .3s;
+}
+
+#footer {
+    border-top: 1px solid grey;
+    height: 7vh;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer p a {
+    color: rgba(185, 208, 250, 0.701);
+    text-decoration: none;
+}

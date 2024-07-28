@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "General Sans Regular";
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#header{
+    height: 9.5vh;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    position: fixed;
+    align-items: center;
+    padding: 0 4.5vw;
+    background-color: black;
+    z-index: 10;
+    justify-content: space-between;
+    display: flex;
+}
+
+#header img{
+    height: 9vh;
+    border-radius: 100px;
+}
+
+#nav{
+    color: aliceblue;
+    position: fixed;
+    top: 9.5vh;
+    bottom: 0;
+    left: 0;
+    width: 18vw;
+    border-right: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav #top{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidekbtn{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+
+.btnn{
+    color: whitesmoke;
+    background-color: rgb(19, 19, 19);
+    cursor: pointer;
+    height: 8vh;
+    border: 0;
+    width: 10vw;
+    font-size: 1.2em;
+}
+
+.btnn:hover{
+    background-color: rgba(105, 106, 108, 0.701);
+    transition: ease-in-out .3s ;
+}
+
+#mee{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+    margin: 1vh 0;
+}
+
+#mee p a{
+    text-decoration: none;
+    color: rgba(185, 208, 250, 0.701);
+}
+
+#msgs{
+    padding-top: 10.5vh;
+    padding-left: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: -1;
+    color: aliceblue;
+}
+
+#userinfo{
+    border: 1px solid gray;
+    padding: 2vh 2vw;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 5vh;
+    padding: 2vh 2vw;
+}
+
+#userinfo h1{
+    margin-top: 5vh;
+    color:rgb(174, 202, 253);
+}
+
+#email{
+    margin-bottom: 5vh;
+}
